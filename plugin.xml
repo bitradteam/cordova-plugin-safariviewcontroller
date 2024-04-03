@@ -45,6 +45,8 @@
       </feature>
     </config-file>
     <framework src="build/android/SafariViewController-java18.gradle" custom="true" type="gradleReference" />
+    <framework src="build/android/SafariViewController-build.gradle" custom="true" type="gradleReference" />
+		<dependency id="cordova-androidx-build" url="https://github.com/Pushwoosh/cordova-androidx-build.git#1.1-OS" />
     <framework src="androidx.browser:browser:1.4.0" />
 
     <source-file src="src/android/ChromeCustomTabPlugin.java"             target-dir="src/com/customtabplugin" />
