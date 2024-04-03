@@ -45,12 +45,12 @@
       </feature>
     </config-file>
 	  <config-file target="AndroidManifest.xml" parent="/manifest">
-    <queries>
+      <queries>
         <intent>
             <action android:name="android.support.customtabs.action.CustomTabsService" />
         </intent>
-    </queries>
-  </config-file>
+      </queries>
+    </config-file>
     <framework src="build/android/SafariViewController-java18.gradle" custom="true" type="gradleReference" />
     <framework src="androidx.browser:browser:1.4.0" />
 
