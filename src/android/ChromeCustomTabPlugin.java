@@ -141,8 +141,9 @@ public class ChromeCustomTabPlugin extends CordovaPlugin{
             }
             case "hide": {
                 cordova.getActivity().startActivity(new Intent(cordova.getActivity(), cordova.getActivity().getClass()));
+                callbackContext.sendPluginResult(new PluginResult(PluginResult.Status.OK, true));
                 return true;
-            }
+            }    
         }
         return false;
     }
